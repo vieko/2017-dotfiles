@@ -48,3 +48,8 @@ validation-status.json
 # Folders to ignore
 bower_components
 node_modules
+
+# Gambitious fields to ignore
+config/initializers/carrierwave.rb
+app/uploaders/application_uploader.rb
+vendors/rich_cms
