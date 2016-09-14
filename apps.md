@@ -2,3 +2,5 @@
 - Noizio
 - SSH Tunnel
 - SSH Proxy
+- Numbers
+- Pages
