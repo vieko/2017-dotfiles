@@ -1,0 +1,38 @@
+[
+  {
+    "defaults": {
+      "link": {
+        "relink": true,
+        "create": true
+      }
+    }
+  },
+  {
+    "clean": ["~"]
+  },
+  {
+    "link": {
+      "~/.aliases"      : ".aliases",
+      "~/.bash_profile" : ".bash_profile",
+      "~/.bashrc"       : ".bashrc",
+      "~/.curlrc"       : ".curlrc",
+      "~/.editorconfig" : ".editorconfig",
+      "~/.exports"      : ".exports",
+      "~/.extra"        : ".extra",
+      "~/.functions"    : ".functions",
+      "~/.gitconfig"    : ".gitconfig",
+      "~/.gitignore"    : ".gitignore",
+      "~/.hushlogin"    : ".hushlogin",
+      "~/.inputrc"      : ".inputrc",
+      "~/.path"         : ".path",
+      "~/.screenrc"     : ".screenrc",
+      "~/.wgetrc"       : ".wgetrc" 
+    }
+  },
+  {
+    "shell": [
+      ["git submodule update --init --recursive", "installing submodules"]
+    ]
+  }
+]
+

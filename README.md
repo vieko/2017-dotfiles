@@ -6,7 +6,7 @@
 2. Install Xcode
 3. Install OS X Command Line Tools `xcode-select --install`
 4. Copy public and private SSH keys to `~/.ssh`
-5. Clone repo to `~/`
+5. Clone repo to `~/.dotfiles`
 6. Append `/usr/local/bin/bash` to `/etc/shells`
 7. Run `install.sh` to start the installation
 8. Make sure Dropbox is set up and synced
