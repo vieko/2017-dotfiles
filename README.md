@@ -18,6 +18,7 @@
 
 - [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) for the great resource
 - [Dries Vints](https://github.com/driesvints/dotfiles) for a fresh take
+- [Anish Athalye](https://github.com/anishathalye/dotbot) for Dotbot
 - [Github does dotfiles](https://dotfiles.github.io/)
 
 :heart:
