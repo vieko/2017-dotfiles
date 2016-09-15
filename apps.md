@@ -7,3 +7,5 @@
 - Alfred
 - Fantastical
 - Adobe Creative Suite
+- Microsoft Remote Desktop
+- xScope 4
