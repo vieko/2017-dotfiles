@@ -61,3 +61,6 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# Add rbenv to bash so that it loads every time you open a terminal
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
