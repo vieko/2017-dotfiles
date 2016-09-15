@@ -14,6 +14,7 @@ alias dw="cd ~/Documents/Websites"
 alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
+alias ddf="cd ~/.dotfiles"
 
 # Git Shortcuts
 alias g="git"
@@ -33,7 +34,7 @@ alias gmm='git merge master'
 
 # Source Shortcuts
 alias editgit='a ~/.gitconfig'
-alias editbash='s ~/.bash_profile'
+alias editbash='a ~/.bash_profile'
 alias resource='source ~/.bash_profile && echo "Done!"'
 
 # Project Shortcuts

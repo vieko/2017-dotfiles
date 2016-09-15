@@ -5,3 +5,5 @@
 - Numbers
 - Pages
 - Alfred
+- Fantastical
+- Adobe Creative Suite

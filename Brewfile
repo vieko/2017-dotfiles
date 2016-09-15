@@ -101,7 +101,7 @@ brew 'php56', args: ['with-gmp', 'with-debug', 'without-apache']
 
 # Apps
 cask 'aerial'
-cask 'adobe-creative-cloud'
+#cask 'adobe-creative-cloud'
 #cask 'tweetbot'
 #cask 'alfred'
 cask 'atom'
