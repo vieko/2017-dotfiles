@@ -2,10 +2,12 @@
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
+tap 'homebrew/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'bramstein/webfonttools'
+tap 'homebrew/completions'
 
 # Make sure apps get installed in system Applications dir
 cask_args appdir: '/Applications'
@@ -19,7 +21,7 @@ brew 'moreutils'
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew 'findutils'
 
-# Install GNU `sed`, overwriting the built-in `sed`.
+#  Install GNU `sed`, overwriting the built-in `sed`.
 brew 'gnu-sed', args: ['with-default-names']
 
 # Install Bash 4
@@ -39,11 +41,14 @@ brew 'sfnt2woff'
 brew 'sfnt2woff-zopfli'
 brew 'woff2'
 
+# Install Java
+cask 'java'
+
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew 'aircrack-ng'
 brew 'bfg'
 brew 'binutils'
-brew 'binwalk'
+#brew 'binwalk'
 brew 'cifer'
 brew 'dex2jar'
 brew 'dns2tcp'
@@ -60,10 +65,10 @@ brew 'socat'
 brew 'sqlmap'
 brew 'tcpflow'
 brew 'tcpreplay'
-brew 'tcptrace'
+#brew 'tcptrace'
 brew 'ucspi-tcp'
-brew 'xpdf'
-brew 'xz'
+#brew 'xpdf'
+#brew 'xz'
 
 # Install Binaries
 brew 'ack'
@@ -97,8 +102,8 @@ brew 'php56', args: ['with-gmp', 'with-debug', 'without-apache']
 # Apps
 cask 'aerial'
 cask 'adobe-creative-cloud'
-cask 'tweetbot'
-cask 'alfred'
+#cask 'tweetbot'
+#cask 'alfred'
 cask 'atom'
 cask 'dash'
 cask 'dropbox'
@@ -110,7 +115,7 @@ cask 'screenhero'
 cask 'sequel-pro'
 cask 'skype'
 cask 'slack'
-cask 'sublime-text3'
+cask 'sublime-text'
 cask 'textual'
 cask 'kaleidoscope'
 cask 'robomongo'
@@ -130,7 +135,7 @@ cask 'fontprep'
 cask 'microsoft-office'
 cask 'plex-media-server'
 cask 'omnigraffle'
-cask 'omnioutline'
+cask 'omnioutliner'
 cask 'cyberduck'
 cask 'vlc'
 

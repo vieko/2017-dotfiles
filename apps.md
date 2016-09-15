@@ -4,3 +4,4 @@
 - SSH Proxy
 - Numbers
 - Pages
+- Alfred

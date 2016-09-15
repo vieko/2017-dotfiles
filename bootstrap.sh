@@ -17,6 +17,10 @@ brew upgrade --all
 brew tap homebrew/bundle
 brew bundle
 
+brew cleanup
+
+ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
+
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
   echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
@@ -24,9 +28,12 @@ if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
 fi;
 
 # Create directories
-mkdir $HOME/Development
-mkdir $HOME/Repositories
-mkdir $HOME/Websites
+mkdir -p $HOME/Development
+mkdir -p $HOME/Repositories
+mkdir -p $HOME/Websites
+
+# Setup Links
+bash install
 
 # Set OS X preferences
 source .macos
