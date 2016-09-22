@@ -173,5 +173,5 @@ alias use-iojs="brew unlink node && brew link --force iojs"
 alias use-node="brew unlink iojs && brew link --force node"
 
 # Start / Stop MySQL
-alias myso="brew services start mysql"
-alias mysf="brew services stop mysql"
+alias myson="brew services start mysql"
+alias mysoff="brew services stop mysql"
