@@ -98,6 +98,7 @@ brew 'wget', args: ['with-iri']
 
 # Development
 brew 'php56', args: ['with-gmp', 'with-debug', 'without-apache']
+brew 'mongodb'
 
 # Apps
 cask 'aerial'
@@ -116,6 +117,7 @@ cask 'sequel-pro'
 cask 'skype'
 cask 'slack'
 cask 'sublime-text'
+cask 'brackets'
 cask 'textual'
 cask 'kaleidoscope'
 cask 'robomongo'

@@ -5,7 +5,10 @@
 - Numbers
 - Pages
 - Alfred
-- Fantastical
+- Fantastical 2
 - Adobe Creative Suite
 - Microsoft Remote Desktop
 - xScope 4
+- SQLPro for MSSQL
+- Tadam
+- Steam
