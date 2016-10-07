@@ -15,6 +15,7 @@ alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias ddf="cd ~/.dotfiles"
+alias box="cd ~/Sandbox"
 
 # Git Shortcuts
 alias g="git"
@@ -175,3 +176,7 @@ alias use-node="brew unlink iojs && brew link --force node"
 # Start / Stop MySQL
 alias myson="brew services start mysql"
 alias mysoff="brew services stop mysql"
+
+# Start / Stop MongoDB
+alias mongoon="brew services start mongodb"
+alias mongoof="brew services stop mongodb"
