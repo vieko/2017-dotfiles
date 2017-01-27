@@ -8,7 +8,7 @@
 4. Copy public and private SSH keys to `~/.ssh`
 5. Clone repo to `~/.dotfiles`
 6. Append `/usr/local/bin/bash` to `/etc/shells`
-7. /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+7. Run `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 8. Run `install.sh` to start the installation
 9. Make sure Dropbox is set up and synced.
 10. [Install other apps](./apps.md)
