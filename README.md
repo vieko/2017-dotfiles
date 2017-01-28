@@ -8,12 +8,11 @@
 4. Copy public and private SSH keys to `~/.ssh`
 5. Clone repo to `~/.dotfiles`
 6. Append `/usr/local/bin/bash` to `/etc/shells`
-7. Install Homebrew
-8. Run `bootstrap.sh` to start the installation
-9. Make sure Dropbox is set up and synced.
-10. [Install other apps](./apps.md)
-11. Restore preferences `mackup restore`
-12. Restart
+7. Run `bootstrap.sh` to start the installation
+8. Make sure Dropbox is set up and synced.
+9. [Install other apps](./apps.md)
+10. Restore preferences `mackup restore`
+11. Restart
 
 ## Thanks
 
