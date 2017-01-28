@@ -1,5 +1,6 @@
 - Amphetamine
 - Noizio
+- Dash
 - SSH Tunnel
 - SSH Proxy
 - Numbers
